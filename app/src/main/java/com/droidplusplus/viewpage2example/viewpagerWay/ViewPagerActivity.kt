@@ -55,7 +55,7 @@ class ViewPagerActivity : AppCompatActivity() {
             override fun run() {
                 handler.post(mRunnable)
             }
-        }, 3000, 3000)
+        }, 2000, 2000)
 
         // Pager listener over indicator
 //        indicator.setOnPageChangeListener(object : ViewPager.OnPageChangeListener() {
@@ -67,7 +67,7 @@ class ViewPagerActivity : AppCompatActivity() {
 //            override fun onPageScrollStateChanged(pos: Int) {}
 //        })
 
-        mPager.setPageTransformer(true, TabletPageTransformer())
+        //mPager.setPageTransformer(true, TabletPageTransformer())
     }
 }
 

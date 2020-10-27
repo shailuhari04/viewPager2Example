@@ -1,4 +1,4 @@
-package com.droidplusplus.viewpage2example
+package com.droidplusplus.viewpage2example.viewpager2way
 
 import android.os.Bundle
 import android.os.Handler
@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
+import com.droidplusplus.viewpage2example.R
 import kotlin.math.abs
 
 class ViewPager2Activity : AppCompatActivity() {
