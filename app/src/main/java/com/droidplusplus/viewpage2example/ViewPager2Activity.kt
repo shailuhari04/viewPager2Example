@@ -10,7 +10,7 @@ import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
 import kotlin.math.abs
 
-class MainActivity : AppCompatActivity() {
+class ViewPager2Activity : AppCompatActivity() {
 
     lateinit var mViewPager2: ViewPager2
 
@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_viewpager2)
 
         mViewPager2 = findViewById(R.id.imageSliderViewPager2)
 
