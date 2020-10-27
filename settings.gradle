@@ -1,0 +1,2 @@
+rootProject.name = "ViewPage2Example"
+include ':app'
